@@ -8,11 +8,15 @@ import EventBind from './components/EventBind.js';
 import FunctionClick from './components/FunctionClick.js';
 import List from './components/List.js';
 import Style from './components/Style.js'; 
-import HookCounter from './hooks_js/hook_counter.js';
-import Hook_MultiCounter from './hooks_js/Hook_MultiCounter.js';
-import HookCounter2 from './hooks_js/hook_counter2.js';
-import Hookcounter3 from './hooks_js/Hookcounter3.js';
-import Time from './hooks_js/Time.js';
+import HookCounter from './useState/hook_counter.js';
+import Hook_MultiCounter from './useState/Hook_MultiCounter.js';
+import HookCounter2 from './useState/hook_counter2.js';
+import Hookcounter3 from './useState/Hookcounter3.js';
+import Time from './useState/Time.js';
+import LifecycleA from './components/LifecycleA.js';
+import Effect_Counter from './useEffect/Effect_Counter.js';
+import Effect_Mouse from './useEffect/Effect_Mouse.js';
+
 // ReactDOM.render(
 //     <div>
 //     <h1>hello world</h1>
@@ -41,6 +45,9 @@ const e=(
 <Style/>
 
 <br></br>
+<LifecycleA/>
+
+
 
 <HookCounter name="Hook Counter "/>
 <br></br>
@@ -53,7 +60,8 @@ const e=(
 <Time/>
 
 
-
+<Effect_Counter/>
+<Effect_Mouse/>
 
 
 
